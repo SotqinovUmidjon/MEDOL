@@ -1,0 +1,566 @@
+.header {
+  width: 100%;
+  min-height: 90vh;
+  background-image: url(/public/hospital.png);
+  background-repeat: no-repeat;
+}
+
+.menu {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 15px;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav ul li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navLogo ul {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.navLogo ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: rgb(189, 186, 186);
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.navLogo ul li select {
+  padding: 3px;
+  background: rgb(189, 186, 186);
+  border: none;
+  outline: none;
+}
+
+.headerLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.headerLinks ul {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  background: rgb(247, 242, 232);
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.sliderOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.sliderText h1 {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 4.5px;
+}
+
+.sliderText p {
+  color: #363535;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.sliderText button {
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  padding: 8px 25px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.3s;
+}
+
+.sliderText button:hover {
+  scale: 1.1;
+  background: linear-gradient(90deg, #000000 20%, #00c9c9 100%);
+}
+
+.sliderImg img {
+  width: 550px;
+}
+
+.products {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.products h1 {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 30px 0px;
+}
+
+.productsBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  border-radius: 35px;
+  opacity: 0.9;
+}
+
+.productsCard {
+  width: 350px;
+  height: 409px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #e5dbdb 0%, rgba(248, 248, 248, 0) 100%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.productsCard h1 {
+  width: 300px;
+  color: #363535;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.52px;
+}
+
+.productsCard button {
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  padding: 8px 25px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.3s;
+}
+
+.productsCard button:hover {
+  scale: 1.1;
+  background: linear-gradient(90deg, #000000 20%, #00c9c9 100%);
+}
+
+.productsLink a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 15px;
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.xizmatlar {
+  width: 100%;
+  min-height: 70vh;
+  background-image: url(/public/hospital.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+}
+
+.xizmatlar h1 {
+  text-align: center;
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 30px 0px;
+}
+.xizmatlarBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.xizmatlarCard {
+  width: 320px;
+  height: 420px;
+  flex-shrink: 0;
+  text-align: center;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.05);
+}
+.xizmatlarCard img {
+  width: 320px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.xizmatlarCard h3 {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  margin-top: 10px;
+}
+
+.xizmatlarCard p {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.xizmatlarCard button {
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  padding: 8px 35px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.3s;
+  margin-top: 32px;
+}
+
+.xizmatlarCard button:hover {
+  scale: 1.1;
+  background: linear-gradient(90deg, #000000 20%, #00c9c9 100%);
+}
+
+.company {
+  text-align: center;
+}
+
+.company h1 {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 50px 0px;
+}
+
+.companyBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.companyText {
+  text-align: start;
+  
+}
+
+.companyText h3 {
+  color: #363535;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 173.187%; /* 34.637px */
+  letter-spacing: 1.2px;
+}
+
+.companyText button {
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  padding: 8px 35px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.3s;
+  margin-top: 32px;
+}
+
+.companyText button:hover {
+  scale: 1.1;
+  background: linear-gradient(90deg, #000000 20%, #00c9c9 100%);
+}
+
+.news {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.news h1 {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 50px 0px;
+}
+.news1 {
+  display: none;
+}
+.newsbox img {
+  width: 300px;
+  border-radius: 25px;
+}
+
+.newsbox h3 {
+  color: #0d4c93;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px 0px;
+}
+
+.newsbox h4 {
+  color: #0d4c93;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
+
+.newsbox {
+  color: #363535;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.newsbox button {
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  padding: 8px 35px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.3s;
+  margin-top: 32px;
+}
+
+.newsbox button:hover {
+  scale: 1.1;
+  background: linear-gradient(90deg, #000000 20%, #00c9c9 100%);
+}
+
+.partner {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.partner h1 {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.partnerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.partnerBox img {
+  width: 250px;
+}
+
+.footer {
+  width: 100%;
+  min-height: 50vh;
+  background-color: #e5dbdb;
+}
+
+.footerBox ul {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px 85px;
+}
+
+.footerBox ul li {
+  color: #595959;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 107.692% */
+  letter-spacing: 1.04px;
+  cursor: pointer;
+}
+
+.footerCard {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  text-align: center;
+  padding: 15px 80px;
+}
+
+.footerCard p {
+  color: #585858;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.72px;
+}
+.footerP {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  color: #353535;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.72px;
+}
+
+.footerP p span {
+  color: #00c9c9;
+  cursor: pointer;
+}
+
+@media (max-width: 1230px) {
+  .news1 {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: #0d4c93;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 50px 0px;
+  }
+  /* .newsbox img{
+    display: flex;
+    justify-content: center;
+  } */
+  .news {
+    display: none;
+  }
+  .companyText {
+    text-align: center;
+  }
+  .nav {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+}
+
+@media (max-width: 980px) {
+  .sliderImg {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+  .headerLinks {
+    display: none;
+  }
+  .navLogo ul{
+    gap: 15px;
+    justify-content: space-between;
+}
+}
